@@ -1,0 +1,49 @@
+.portada{
+height: 100%;
+width: 100%;
+}
+.btn{margin:2px;}
+
+
+.info-principal{
+
+    width: 90%;
+    height: 200px;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	background-color: transparent;
+	margin: auto;
+   color: #FFF;
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .info-principal{
+
+        width: 50%;
+        height: 200px;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+          
+        margin: auto;
+       
+    
+    }
+
+
+
+  }
+
+
+
+
+  .info{
+    display: block;
+
+  }

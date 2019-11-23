@@ -3,15 +3,15 @@ import 'firebase/firestore';
 import 'firebase/auth';
 //import process from '../.env';
 const app = {
-/*  storageBucket: "peer-evaluation-747fc.appspot.com",
-  apiKey: process.env.APP_APIKEY,
-  authDomain: process.env.APP_AUTHDOMAIN,
-  databaseURL: process.env.APP_DATABASEURL,
-  projectId: process.env.APP_PROJECTID,
-  messagingSenderId: process.env.APP_MESSAGINGSENDERID,
-  appId: process.env.APP_APPID,
-  measurementId: process.env.APP_MEASUREMENTID  
-*/};
+  storageBucket: "peer-evaluation-747fc.appspot.com",
+  apiKey: "AIzaSyCtbXpZEnUtDYcGzwvRj2bV-GqFJh-EFZo",
+  authDomain: "peer-evaluation-747fc.firebaseapp.com",
+  databaseURL: "https://peer-evaluation-747fc.firebaseio.com",
+  projectId: "peer-evaluation-747fc",
+  messagingSenderId: "427860158264",
+  appId: "1:427860158264:web:83eb171fde97660ad243cd",
+  measurementId: "G-Q1RXB9P3S4"
+};
 console.log(process.env.APP_APIKEY)
 firebase.initializeApp(app);
 
